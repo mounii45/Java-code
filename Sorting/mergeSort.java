@@ -7,6 +7,7 @@ public class mergeSort {
         int right = mid + 1;
         int[] m = new int[high - low + 1];
         int i = 0;
+
         while (left <= mid && right <= high) {
             if (arr[left] <= arr[right]) {
                 m[i++] = arr[left];
@@ -17,7 +18,7 @@ public class mergeSort {
             }
         }
 
-        while (left <= mid) {
+        while (left <= mid) { // if still elements are remained in array
             m[i++] = arr[left];
             left++;
         }
@@ -29,13 +30,18 @@ public class mergeSort {
         System.arraycopy(m, 0, arr, low, m.length);
     }
 
-    public static void mergeSort(int[] arr, int low, int high) {
+    public static void mergeSort(int[] arr, int low, int high) { // recursive function that divide the array in inorder
+                                                                 // until individual ele
 
         if (low == high)
             return;// base condition
         int mid = (low + high) / 2;
+
+        // sorting using recursion
         mergeSort(arr, low, mid);
         mergeSort(arr, mid + 1, high);
+
+        // merge two individual array
         merge(arr, low, mid, high);
     }
 
