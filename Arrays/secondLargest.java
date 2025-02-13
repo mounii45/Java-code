@@ -19,6 +19,7 @@ public class secondLargest {
         }
 
         int largest = arr[0], slargest = Integer.MIN_VALUE;
+        // updating second largest everytime we traverse
         for (int i = 0; i < n; i++) {
             if (arr[i] > largest) {
                 slargest = largest;

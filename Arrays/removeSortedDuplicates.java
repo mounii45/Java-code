@@ -19,11 +19,13 @@ public class removeSortedDuplicates {
         }
 
         int i = 0, j;
+        // iterating until diff ele found then placing in next position in array
         for (j = 1; j < n; j++) {
             if (arr[j] != arr[i])
                 arr[++i] = arr[j];
         }
 
+        // length will be i+1
         System.out.println("The elements after removing duplicates:");
         for (int k = 0; k < i + 1; k++) {
             System.out.println(arr[k]);
