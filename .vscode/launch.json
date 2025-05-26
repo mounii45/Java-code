@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countSort",
+            "request": "launch",
+            "mainClass": "countSort",
+            "projectName": "git java_dd90f36e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
