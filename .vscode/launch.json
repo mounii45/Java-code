@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "friendPairing",
+            "request": "launch",
+            "mainClass": "Recursion.friendPairing",
+            "projectName": "git java_dd90f36e"
+        },
+        {
+            "type": "java",
+            "name": "operation",
+            "request": "launch",
+            "mainClass": "BitManipulation.operation",
+            "projectName": "git java_dd90f36e"
+        },
+        {
+            "type": "java",
             "name": "countSort",
             "request": "launch",
             "mainClass": "countSort",
