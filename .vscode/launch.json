@@ -1,112 +1,252 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "leftRotate",
-            "request": "launch",
-            "mainClass": "Arrays.leftRotate",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "removeSortedDuplicates",
-            "request": "launch",
-            "mainClass": "Arrays.removeSortedDuplicates",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "rightRotate",
-            "request": "launch",
-            "mainClass": "Arrays.rightRotate",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "secondLargest",
-            "request": "launch",
-            "mainClass": "Arrays.secondLargest",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "bubbleSort",
-            "request": "launch",
-            "mainClass": "bubbleSort",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "insertionSort",
-            "request": "launch",
-            "mainClass": "insertionSort",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "Linked",
-            "request": "launch",
-            "mainClass": "linkedlist.Linked",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "doubly",
-            "request": "launch",
-            "mainClass": "linkedlist.doubly",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "mergeSort",
-            "request": "launch",
-            "mainClass": "mergeSort",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "queueMain",
-            "request": "launch",
-            "mainClass": "queueMain",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "quickSort",
-            "request": "launch",
-            "mainClass": "quickSort",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "selectionSort",
-            "request": "launch",
-            "mainClass": "selectionSort",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "dynamicStackCreation",
-            "request": "launch",
-            "mainClass": "stackCreation.dynamicStackCreation",
-            "projectName": "git java_dd90f36e"
-        },
-        {
-            "type": "java",
-            "name": "sampleStack",
-            "request": "launch",
-            "mainClass": "stackCreation.sampleStack",
-            "projectName": "git java_dd90f36e"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "sum0",
+      "request": "launch",
+      "mainClass": "sum0",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "itinerary",
+      "request": "launch",
+      "mainClass": "itinerary",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "HashSet1",
+      "request": "launch",
+      "mainClass": "HashSet1",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedHM",
+      "request": "launch",
+      "mainClass": "LinkedHM",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "intro",
+      "request": "launch",
+      "mainClass": "intro",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "implementation",
+      "request": "launch",
+      "mainClass": "implementation",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedHM",
+      "request": "launch",
+      "mainClass": "Hashing.LinkedHM",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "implementation",
+      "request": "launch",
+      "mainClass": "Hashing.implementation",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedHM",
+      "request": "launch",
+      "mainClass": "HashMapB.LinkedHM",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "implementation",
+      "request": "launch",
+      "mainClass": "HashMapB.implementation",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "intro",
+      "request": "launch",
+      "mainClass": "HashMapB.intro",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "nearByCars",
+      "request": "launch",
+      "mainClass": "priorityQueuesB.nearByCars",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "heapSortB",
+      "request": "launch",
+      "mainClass": "priorityQueuesB.heapSortB",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "maxHeap",
+      "request": "launch",
+      "mainClass": "priorityQueuesB.maxHeap",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "heap",
+      "request": "launch",
+      "mainClass": "priorityQueuesB.heap",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "classesPQ",
+      "request": "launch",
+      "mainClass": "priorityQueuesB.classesPQ",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "implement",
+      "request": "launch",
+      "mainClass": "priorityQueuesB.implement",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "AVL",
+      "request": "launch",
+      "mainClass": "binarySearchTree.AVL",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "largestBST",
+      "request": "launch",
+      "mainClass": "binarySearchTree.largestBST",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "bst",
+      "request": "launch",
+      "mainClass": "binarySearchTree.bst",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "leftRotate",
+      "request": "launch",
+      "mainClass": "Arrays.leftRotate",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "removeSortedDuplicates",
+      "request": "launch",
+      "mainClass": "Arrays.removeSortedDuplicates",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "rightRotate",
+      "request": "launch",
+      "mainClass": "Arrays.rightRotate",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "secondLargest",
+      "request": "launch",
+      "mainClass": "Arrays.secondLargest",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "bubbleSort",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "insertionSort",
+      "request": "launch",
+      "mainClass": "insertionSort",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "Linked",
+      "request": "launch",
+      "mainClass": "linkedlist.Linked",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "doubly",
+      "request": "launch",
+      "mainClass": "linkedlist.doubly",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "mergeSort",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "queueMain",
+      "request": "launch",
+      "mainClass": "queueMain",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "quickSort",
+      "request": "launch",
+      "mainClass": "quickSort",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "selectionSort",
+      "request": "launch",
+      "mainClass": "selectionSort",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "dynamicStackCreation",
+      "request": "launch",
+      "mainClass": "stackCreation.dynamicStackCreation",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "sampleStack",
+      "request": "launch",
+      "mainClass": "stackCreation.sampleStack",
+      "projectName": "git java_dd90f36e"
+    }
+  ]
 }

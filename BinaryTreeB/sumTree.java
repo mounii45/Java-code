@@ -42,7 +42,7 @@ public class sumTree {
         int leftSum = transform(root.left);
         int rightSum = transform(root.right);
 
-        int oldVal = root.data; // for not loosing the data
+        int oldVal = root.data; // for not loosing the data to return
         root.data = leftSum + rightSum;// changing original value
 
         return root.data + oldVal; // return sum of subtree
