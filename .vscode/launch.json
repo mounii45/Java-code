@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "uniqueSubstrings",
+      "request": "launch",
+      "mainClass": "Tries.uniqueSubstrings",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "prefix",
+      "request": "launch",
+      "mainClass": "Tries.prefix",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "fractKnack",
+      "request": "launch",
+      "mainClass": "GreedyAlgorithms.fractKnack",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "wordBreakProblem",
+      "request": "launch",
+      "mainClass": "Tries.wordBreakProblem",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
+      "name": "creation",
+      "request": "launch",
+      "mainClass": "Tries.creation",
+      "projectName": "git java_dd90f36e"
+    },
+    {
+      "type": "java",
       "name": "sum0",
       "request": "launch",
       "mainClass": "sum0",
